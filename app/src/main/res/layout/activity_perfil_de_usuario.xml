@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerfilDeUsuario">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            app:srcCompat="@drawable/rutinovacentro" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="557dp"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="55dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Perfil de usuario"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="23dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="73dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:fontFamily="sans-serif-black"
+                android:text="correo@correo.com  "
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="23dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="inicio"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/cerrarsesion" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="77dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="Política de privacidad"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerInside"
+                android:paddingLeft="35dp"
+                android:paddingRight="35dp"
+                android:text="Los datos de los usuarios no serán compartidos con terceros bajo ninguna circunstancia.
+
+   Usted podrá eliminar su cuenta en
+cualquier momento.
+
+"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RutiNova ©"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All rights reserved."
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#000F0000"
+                android:onClick="principal"
+                android:scaleType="centerCrop"
+                android:tint="#00F8F8F8"
+                app:srcCompat="@drawable/tareasicon" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/perfilicon" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

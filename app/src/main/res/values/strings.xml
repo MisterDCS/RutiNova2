@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">RutiNova</string>
+    <string name="paraHoyLado">⫸ Para Hoy</string>
+    <string name="paraHoyAbajo">⩖ Para Hoy</string>
+    <string name="paraMananaLado">⫸ Para Mañana</string>
+    <string name="paraMananaAbajo">⩖ Para Mañana</string>
+    <string name="paraOtroLado">⫸ Más Adelante</string>
+    <string name="paraOtroAbajo">⩖ Más Adelante</string>
+    <string name="HolaCorreo">Hola Correo@Gmail.com</string>
 </resources>

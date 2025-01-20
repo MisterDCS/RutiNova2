@@ -10,13 +10,13 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class inicioSesion extends AppCompatActivity {
+public class PerfilDeUsuario extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_inicio_sesion);
+        setContentView(R.layout.activity_perfil_de_usuario);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -24,9 +24,13 @@ public class inicioSesion extends AppCompatActivity {
         });
     }
 
-    public void registro (View view){
-        Intent init = new Intent(this,registroDeUsuario.class);
+    public void principal (View view){
+        Intent init = new Intent(this, PantallaPrincipal.class);
         startActivity(init);
     }
 
+    public void inicio (View view){
+        Intent init = new Intent(this, InicioSesion.class);
+        startActivity(init);
+    }
 }

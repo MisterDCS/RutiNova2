@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="96dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rutinovacentro" />
+
+    <TextView
+        android:id="@+id/lblEditarHabito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Editar el hábito"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblNombreHabito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Nombre del hábito"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/txtNombrehabito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Ingresa el nombre del hábito"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/lblRecurrencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Recurrencia"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="319dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical">
+
+        <Switch
+            android:id="@+id/switchLunes"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Lunes" />
+
+        <Switch
+            android:id="@+id/switchMartes"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Martes" />
+
+        <Switch
+            android:id="@+id/switchMiercoles"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Miércoles" />
+
+        <Switch
+            android:id="@+id/switchJueves"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Jueves" />
+
+        <Switch
+            android:id="@+id/switchViernes"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Viernes" />
+
+        <Switch
+            android:id="@+id/switchSabado"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Sábado" />
+
+        <Switch
+            android:id="@+id/switchDomingo"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Domingo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/boton_guardar"
+            android:layout_width="171dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="Guardar"
+            android:src="@drawable/botonguardar" />
+
+        <ImageView
+            android:id="@+id/boton_cancelar"
+            android:layout_width="171dp"
+            android:layout_height="80dp"
+            android:contentDescription="Cancelar"
+            android:src="@drawable/botoncancelar" />
+    </LinearLayout>
+
+</LinearLayout>
