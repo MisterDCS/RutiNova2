@@ -22,7 +22,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="557dp"
+            android:layout_height="580dp"
             android:orientation="vertical">
 
             <Space
@@ -83,9 +83,9 @@
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:scaleType="centerInside"
                 android:paddingLeft="35dp"
                 android:paddingRight="35dp"
+                android:scaleType="centerInside"
                 android:text="Los datos de los usuarios no serán compartidos con terceros bajo ninguna circunstancia.
 
    Usted podrá eliminar su cuenta en
@@ -113,7 +113,7 @@ cualquier momento.
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="83dp"
             android:orientation="horizontal"
             android:weightSum="2">
 
